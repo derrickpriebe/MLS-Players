@@ -1,3 +1,54 @@
 <html>
-  <h1>MLS Players Analysis</h1>
+<head>
+    <title>MLS Player Analysis</title>
+</head>
+
+<body>
+<h1>MLS Player Analysis</h1>
+<hr>
+<div class="selections">
+    <form action="action_page.php">
+  
+      <label for="name">Name</label>
+      <input type="text" id="name">
+  
+      <label for="team">Team</label>
+      <select id="team" name="team">
+        <option value="">Optional selection</option>
+        <option value="atlanta united fc">Atlanta United FC</option>
+        <option value='austin fc'>Austin FC</option>
+        <option value='charlotte fc'>Charlotte FC</option>
+        <option value='chicago fire fc'>Chicago Fire FC</option>
+        <option value='fc cincinnati'>FC Cincinnati</option>
+        <option value='colorado rapids'>Colorado Rapids</option>
+        <option value='columbus crew'>Columbus Crew</option>
+        <option value='fc dallas'>FC Dallas</option>
+        <option value='d.c. united'>D.C. United</option>
+        <option value='houston dynamo fc'>Houston Dynamo FC</option>
+        <option value='la galaxy'>LA Galaxy</option>
+        <option value='los angeles fc'>Los Angeles FC</option>
+        <option value='minnesota united fc'>Minnesota United FC</option>
+        <option value='inter miami cf'>Inter Miami CF</option>
+        <option value='cf montreal'>CF Montreal</option>
+        <option value='nashville sc'>Nashville SC</option>
+        <option value='new england revolution'>New England Revolution</option>
+        <option value='new york city fc'>New York City FC</option>
+        <option value='new york red bulls'>New York Red Bulls</option>
+        <option value='orlando city sc'>Orlando City SC</option>
+        <option value='philadelphia union'>Philadelphia Union</option>
+        <option value='portland timbers'>Portland Timbers</option>
+        <option value='real salt lake'>Real Salt Lake</option>
+        <option value='san jose earthquakes'>San Jose Earthquakes</option>
+        <option value='seattle sounders fc'>Seattle Sounders FC</option>
+        <option value='sporting kansas city'>Sporting Kansas City</option>
+        <option value='toronto fc'>Toronto FC</option>
+        <option value='vancouver whitecaps fc'>Vancouver Whitecaps FC</option>
+      </select>
+  
+      <input type="button" value="Submit" name="Submit" onclick="location.href='/results.html'">
+      <input type="button" value="Clear" name ="Submit" onclick="location.href='/'">
+    </form>
+  </div>
+<hr>
+</body>
 </html>
