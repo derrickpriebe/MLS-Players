@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template, json, redirect, request
  
 # Flask constructor
 app = Flask(__name__)
@@ -6,12 +6,8 @@ app = Flask(__name__)
 # Homepage URL call
 @app.route("/")
 def home():
-    return redirect("/html/home")
-
-@app.route("/html/home")
-def Main():
-    return render_template("html/home.html")
+    return render_template("home.html")
  
-# main driver function
-if __name__ == '__main__':
-    app.run()
+# Listener
+if __name__ == "__main__":
+    app.run(port=2509, debug=True)
