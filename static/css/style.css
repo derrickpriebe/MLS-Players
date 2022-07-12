@@ -9,14 +9,13 @@ body {
 
 table {
     /* table-layout: fixed; */
-    align-items: right;
+    align-items: left;
     margin-right: auto;
     margin-bottom: 3%;
     margin-top: 3%;
   
     border-collapse: collapse;
-    border: solid white 4px;
-    box-shadow: 7px 7px 1px rgb(59, 88, 221);
+    border: solid black 1px;
     color: black;
   }
 
