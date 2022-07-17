@@ -1,6 +1,7 @@
 <html>
 <head>
     <title>MLS Players Analysis</title>
+    <link href="../static/css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -49,5 +50,11 @@
     </form>
   </div>
 <hr>
+  <div class="tableContainerDiv">
+    {% for table in tables %}    
+                {{titles[loop.index]}}
+                {{ table|safe }}
+    {% endfor %}
+  </div>  
 </body>
 </html>

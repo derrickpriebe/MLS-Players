@@ -1,14 +1,55 @@
 /* CSS Document */
 
-body {
-    background: #fefef4;
-    background-repeat: no-repeat;  
-    background-position: 0% 0%;
-    background-size: 100% 100%;
-  }
+.tableContainerDiv {
+  overflow: auto;
+  max-height: 80em;
+}
+th {
+  position: sticky;
+  top: 0;
+  background: white;
+}
 
+/*
+table.scrolldown {
+  width: 100%;
+  border-spacing: 0;
+  border: 2px solid black;
+}
+table.scrolldown tbody, table.scrolldown thead {
+  display: block;
+} 
+
+thead tr th {
+  height: 40px; 
+  line-height: 40px;
+}
+
+table.scrolldown tbody {
+    
+  height: 50px; 
+    
+  overflow-y: auto;
+    
+  overflow-x: hidden; 
+}
+
+tbody { 
+  border-top: 2px solid black;
+}
+
+tbody td, thead th {
+  width : 200px;
+  border-right: 2px solid black;
+}
+td {
+  text-align:center;
+}
+*/
+
+/*
 table {
-    /* table-layout: fixed; */
+    table-layout: fixed;
     align-items: left;
     margin-right: auto;
     margin-bottom: 3%;
@@ -22,3 +63,4 @@ table {
 thead {
     text-align: left;
   }
+  */

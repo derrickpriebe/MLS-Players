@@ -11,7 +11,12 @@ salary_data = pd.read_csv("salaries.csv")
 @app.route("/")
 def home():
     return render_template("home.html")
- 
+
+@app.route('/home_copy', methods=("POST", "GET"))
+def table():
+
+    return render_template('home_copy.html',  tables=[salary_data.to_html(classes='data')], titles=salary_data.columns.values)
+
 # Homepage URL call - J2 file
 @app.route("/home")
 def home1():
