@@ -1,0 +1,1421 @@
+{
+  "squad": [
+    {
+      "height": "1,80",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1642028400,
+      "contractUntil": 1703977200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "43228",
+      "name": "Albert Rusn\u00e1k",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/43228-1647635779.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "11",
+      "age": 28,
+      "dateOfBirth": 773532000,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/albert-rusnak-1642103080-78527.jpg?lm=1642103104",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "10",
+          "name": "Offensives Mittelfeld",
+          "shortName": "OM",
+          "group": "Mittelfeld"
+        },
+        "second": {
+          "id": "12",
+          "name": "Rechtsau\u00dfen",
+          "shortName": "RA",
+          "group": "Sturm"
+        },
+        "third": {
+          "id": "11",
+          "name": "Linksau\u00dfen",
+          "shortName": "LA",
+          "group": "Sturm"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 154,
+          "name": "Slowakei",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/154.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 2500000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,69",
+      "foot": "links",
+      "injury": null,
+      "suspension": null,
+      "joined": 1469570400,
+      "contractUntil": 1703977200,
+      "captain": true,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "72653",
+      "name": "Nicol\u00e1s Lodeiro",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/72653-1647636339.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "10",
+      "age": 33,
+      "dateOfBirth": 606438000,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/nicolas-lodeiro-seattle-sounders-fc-1614184333-57372.jpg?lm=1614184352",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "10",
+          "name": "Offensives Mittelfeld",
+          "shortName": "OM",
+          "group": "Mittelfeld"
+        },
+        "second": {
+          "id": "12",
+          "name": "Rechtsau\u00dfen",
+          "shortName": "RA",
+          "group": "Sturm"
+        },
+        "third": {
+          "id": "11",
+          "name": "Linksau\u00dfen",
+          "shortName": "LA",
+          "group": "Sturm"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 179,
+          "name": "Uruguay",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/179.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 3000000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,76",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1614812400,
+      "contractUntil": 1672441200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "73852",
+      "name": "Fredy Montero",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/73852-1647636056.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "12",
+      "age": 34,
+      "dateOfBirth": 554248800,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/fredy-montero-1635354324-73651.jpg?lm=1635354339",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "14",
+          "name": "Mittelst\u00fcrmer",
+          "shortName": "MS",
+          "group": "Sturm"
+        },
+        "second": {
+          "id": "13",
+          "name": "H\u00e4ngende Spitze",
+          "shortName": "HS",
+          "group": "Sturm"
+        },
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 83,
+          "name": "Kolumbien",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/83.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 600000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,95",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1386630000,
+      "contractUntil": 1657607379,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "99617",
+      "name": "Stefan Frei",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/99617-1647636708.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "24",
+      "age": 36,
+      "dateOfBirth": 514332000,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/stefan-frei-seattle-sounders-fc-1613503629-56762.jpg?lm=1613503643",
+      "isGoalkeeper": true,
+      "positions": {
+        "first": {
+          "id": "1",
+          "name": "Torwart",
+          "shortName": "TW",
+          "group": "Torwart"
+        },
+        "second": null,
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        },
+        {
+          "id": 148,
+          "name": "Schweiz",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/148.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 500000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,69",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1531173600,
+      "contractUntil": 1735599600,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "129724",
+      "name": "Ra\u00fal Ruid\u00edaz",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/129724-1647636518.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "9",
+      "age": 31,
+      "dateOfBirth": 648856800,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/raul-ruidiaz-1651605370-84608.jpg?lm=1651605426",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "14",
+          "name": "Mittelst\u00fcrmer",
+          "shortName": "MS",
+          "group": "Sturm"
+        },
+        "second": {
+          "id": "11",
+          "name": "Linksau\u00dfen",
+          "shortName": "LA",
+          "group": "Sturm"
+        },
+        "third": {
+          "id": "12",
+          "name": "Rechtsau\u00dfen",
+          "shortName": "RA",
+          "group": "Sturm"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 133,
+          "name": "Peru",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/133.png?lm=1520611569"
+        },
+        {
+          "id": 37,
+          "name": "Kroatien",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/37.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 8000000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,71",
+      "foot": "rechts",
+      "injury": {
+        "id": "1",
+        "description": "Kreuzbandriss",
+        "until": null,
+        "category": "Unbekannt",
+        "rehabilitation": "",
+        "clubIdStart": null,
+        "clubIdEnd": null
+      },
+      "suspension": null,
+      "joined": 1611183600,
+      "contractUntil": 1703977200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "135984",
+      "name": "Jo\u00e3o Paulo",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/135984-1647636130.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "6",
+      "age": 31,
+      "dateOfBirth": 668386800,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/joao-paulo-seattle-sounders-fc-1618424899-60844.jpg?lm=1618424912",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "7",
+          "name": "Zentrales Mittelfeld",
+          "shortName": "ZM",
+          "group": "Mittelfeld"
+        },
+        "second": {
+          "id": "10",
+          "name": "Offensives Mittelfeld",
+          "shortName": "OM",
+          "group": "Mittelfeld"
+        },
+        "third": {
+          "id": "8",
+          "name": "Rechtes Mittelfeld",
+          "shortName": "RM",
+          "group": "Mittelfeld"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 26,
+          "name": "Brasilien",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/26.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 2500000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,85",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1483225200,
+      "contractUntil": 1672441200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "173486",
+      "name": "Will Bruin",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/173486-1647636747.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "17",
+      "age": 32,
+      "dateOfBirth": 625186800,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/will-bruin-und-raul-ruidiaz-jubeln-bei-den-seattle-sounders-1607408619-52771.jpg?lm=1607408644",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "14",
+          "name": "Mittelst\u00fcrmer",
+          "shortName": "MS",
+          "group": "Sturm"
+        },
+        "second": null,
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 500000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,73",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1611874800,
+      "contractUntil": 1703977200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "183118",
+      "name": "Kelyn Rowe",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/183118-1647636259.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "22",
+      "age": 30,
+      "dateOfBirth": 691628400,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/kelyn-rowe-new-england-revolution-1595100275-43744.jpg?lm=1595100245",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "7",
+          "name": "Zentrales Mittelfeld",
+          "shortName": "ZM",
+          "group": "Mittelfeld"
+        },
+        "second": {
+          "id": "9",
+          "name": "Linkes Mittelfeld",
+          "shortName": "LM",
+          "group": "Mittelfeld"
+        },
+        "third": {
+          "id": "8",
+          "name": "Rechtes Mittelfeld",
+          "shortName": "RM",
+          "group": "Mittelfeld"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 750000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,65",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1603231200,
+      "contractUntil": 1672441200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "283624",
+      "name": "Jimmy Medranda",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/283624-1647636093.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "94",
+      "age": 28,
+      "dateOfBirth": 760575600,
+      "heroImage": null,
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "4",
+          "name": "Linker Verteidiger",
+          "shortName": "LV",
+          "group": "Abwehr"
+        },
+        "second": {
+          "id": "7",
+          "name": "Zentrales Mittelfeld",
+          "shortName": "ZM",
+          "group": "Mittelfeld"
+        },
+        "third": {
+          "id": "11",
+          "name": "Linksau\u00dfen",
+          "shortName": "LA",
+          "group": "Sturm"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 83,
+          "name": "Kolumbien",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/83.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 1500000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,83",
+      "foot": null,
+      "injury": {
+        "id": "299",
+        "description": "Oberschenkelverletzung",
+        "until": null,
+        "category": "Unbekannt",
+        "rehabilitation": "",
+        "clubIdStart": null,
+        "clubIdEnd": null
+      },
+      "suspension": null,
+      "joined": 1557180000,
+      "contractUntil": 1703977200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "323854",
+      "name": "Xavier Arreaga",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/323854-1647636782.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "3",
+      "age": 27,
+      "dateOfBirth": 780706800,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/xavier-arreaga-seattle-sounders-fc-1623402764-64731.jpg?lm=1623402774",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "3",
+          "name": "Innenverteidiger",
+          "shortName": "IV",
+          "group": "Abwehr"
+        },
+        "second": {
+          "id": "6",
+          "name": "Defensives Mittelfeld",
+          "shortName": "DM",
+          "group": "Mittelfeld"
+        },
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 44,
+          "name": "Ecuador",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/44.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 1500000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,81",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1453330800,
+      "contractUntil": 1672441200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "337807",
+      "name": "Jordan Morris",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/337807-1647636174.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "13",
+      "age": 27,
+      "dateOfBirth": 783126000,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/jordan-morris-1604715906-50771.jpg?lm=1604715930",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "11",
+          "name": "Linksau\u00dfen",
+          "shortName": "LA",
+          "group": "Sturm"
+        },
+        "second": {
+          "id": "12",
+          "name": "Rechtsau\u00dfen",
+          "shortName": "RA",
+          "group": "Sturm"
+        },
+        "third": {
+          "id": "14",
+          "name": "Mittelst\u00fcrmer",
+          "shortName": "MS",
+          "group": "Sturm"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 5000000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,88",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1580857200,
+      "contractUntil": 1672441200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "343359",
+      "name": "Yeimar G\u00f3mez Andrade",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/343359-1647636815.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "28",
+      "age": 30,
+      "dateOfBirth": 709855200,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/yeimar-gomez-andrade-1605064591-51032.jpg?lm=1605064611",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "3",
+          "name": "Innenverteidiger",
+          "shortName": "IV",
+          "group": "Abwehr"
+        },
+        "second": null,
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 83,
+          "name": "Kolumbien",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/83.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 4000000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,73",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1421276400,
+      "contractUntil": 1657607379,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "354792",
+      "name": "Cristian Rold\u00e1n",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/354792-1647635907.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "7",
+      "age": 27,
+      "dateOfBirth": 802130400,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/cristian-roldan-1604986221-50884.jpg?lm=1604986246",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "7",
+          "name": "Zentrales Mittelfeld",
+          "shortName": "ZM",
+          "group": "Mittelfeld"
+        },
+        "second": {
+          "id": "10",
+          "name": "Offensives Mittelfeld",
+          "shortName": "OM",
+          "group": "Mittelfeld"
+        },
+        "third": {
+          "id": "8",
+          "name": "Rechtes Mittelfeld",
+          "shortName": "RM",
+          "group": "Mittelfeld"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        },
+        {
+          "id": 58,
+          "name": "Guatemala",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/58.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 5500000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,78",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1485385200,
+      "contractUntil": 1657607379,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "436332",
+      "name": "Nouhou",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/436332-1647636355.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "5",
+      "age": 25,
+      "dateOfBirth": 867016800,
+      "heroImage": null,
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "4",
+          "name": "Linker Verteidiger",
+          "shortName": "LV",
+          "group": "Abwehr"
+        },
+        "second": {
+          "id": "3",
+          "name": "Innenverteidiger",
+          "shortName": "IV",
+          "group": "Abwehr"
+        },
+        "third": {
+          "id": "11",
+          "name": "Linksau\u00dfen",
+          "shortName": "LA",
+          "group": "Sturm"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 31,
+          "name": "Kamerun",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/31.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 2500000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,78",
+      "foot": "links",
+      "injury": null,
+      "suspension": null,
+      "joined": 1628114400,
+      "contractUntil": 1735599600,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "468320",
+      "name": "L\u00e9o Ch\u00fa",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/468320-1647636294.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "23",
+      "age": 22,
+      "dateOfBirth": 960069600,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/leo-chu-1628209748-68375.jpg?lm=1628209762",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "11",
+          "name": "Linksau\u00dfen",
+          "shortName": "LA",
+          "group": "Sturm"
+        },
+        "second": {
+          "id": "12",
+          "name": "Rechtsau\u00dfen",
+          "shortName": "RA",
+          "group": "Sturm"
+        },
+        "third": {
+          "id": "10",
+          "name": "Offensives Mittelfeld",
+          "shortName": "OM",
+          "group": "Mittelfeld"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 26,
+          "name": "Brasilien",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/26.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 2500000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,88",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1574722800,
+      "contractUntil": 1703977200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "482647",
+      "name": "Stefan Cleveland",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/482647-1647636662.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "30",
+      "age": 28,
+      "dateOfBirth": 769816800,
+      "heroImage": null,
+      "isGoalkeeper": true,
+      "positions": {
+        "first": {
+          "id": "1",
+          "name": "Torwart",
+          "shortName": "TW",
+          "group": "Torwart"
+        },
+        "second": null,
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 400000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,85",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1592172000,
+      "contractUntil": 1672441200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "504205",
+      "name": "Josh Atencio",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/504205-1647636223.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "84",
+      "age": 20,
+      "dateOfBirth": 1012431600,
+      "heroImage": null,
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "6",
+          "name": "Defensives Mittelfeld",
+          "shortName": "DM",
+          "group": "Mittelfeld"
+        },
+        "second": {
+          "id": "3",
+          "name": "Innenverteidiger",
+          "shortName": "IV",
+          "group": "Abwehr"
+        },
+        "third": {
+          "id": "7",
+          "name": "Zentrales Mittelfeld",
+          "shortName": "ZM",
+          "group": "Mittelfeld"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 800000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,75",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1556661600,
+      "contractUntil": 1672441200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "504214",
+      "name": "Alfonso Ocampo-Ch\u00e1vez",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/504214-1584467518.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "87",
+      "age": 20,
+      "dateOfBirth": 1017010800,
+      "heroImage": null,
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "14",
+          "name": "Mittelst\u00fcrmer",
+          "shortName": "MS",
+          "group": "Sturm"
+        },
+        "second": null,
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        },
+        {
+          "id": 110,
+          "name": "Mexiko",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/110.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 200000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,98",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1644793200,
+      "contractUntil": 1672441200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "507901",
+      "name": "Jackson Ragen",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/507901-1654879095.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "25",
+      "age": 23,
+      "dateOfBirth": 906588000,
+      "heroImage": null,
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "3",
+          "name": "Innenverteidiger",
+          "shortName": "IV",
+          "group": "Abwehr"
+        },
+        "second": {
+          "id": "6",
+          "name": "Defensives Mittelfeld",
+          "shortName": "DM",
+          "group": "Mittelfeld"
+        },
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 300000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,70",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1641855600,
+      "contractUntil": 1672441200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "520220",
+      "name": "Dylan Teves",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/520220-1647636011.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "99",
+      "age": 22,
+      "dateOfBirth": 957391200,
+      "heroImage": null,
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "7",
+          "name": "Zentrales Mittelfeld",
+          "shortName": "ZM",
+          "group": "Mittelfeld"
+        },
+        "second": {
+          "id": "6",
+          "name": "Defensives Mittelfeld",
+          "shortName": "DM",
+          "group": "Mittelfeld"
+        },
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 50000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,78",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1516316400,
+      "contractUntil": 1735599600,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "562560",
+      "name": "\u00c1lex Rold\u00e1n",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/562560-1647635796.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "16",
+      "age": 25,
+      "dateOfBirth": 838504800,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/alex-roldan-1628102350-68305.jpg?lm=1628102393",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "5",
+          "name": "Rechter Verteidiger",
+          "shortName": "RV",
+          "group": "Abwehr"
+        },
+        "second": {
+          "id": "8",
+          "name": "Rechtes Mittelfeld",
+          "shortName": "RM",
+          "group": "Mittelfeld"
+        },
+        "third": {
+          "id": "12",
+          "name": "Rechtsau\u00dfen",
+          "shortName": "RA",
+          "group": "Sturm"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 45,
+          "name": "El Salvador",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/45.png?lm=1520611569"
+        },
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 2000000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,78",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1554760800,
+      "contractUntil": 1657607379,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "623444",
+      "name": "Danny Leyva",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/623444-1647635953.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "75",
+      "age": 19,
+      "dateOfBirth": 1052085600,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/danny-leyva-1634394356-72995.jpg?lm=1634394373",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "6",
+          "name": "Defensives Mittelfeld",
+          "shortName": "DM",
+          "group": "Mittelfeld"
+        },
+        "second": {
+          "id": "7",
+          "name": "Zentrales Mittelfeld",
+          "shortName": "ZM",
+          "group": "Mittelfeld"
+        },
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        },
+        {
+          "id": 110,
+          "name": "Mexiko",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/110.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 2000000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,88",
+      "foot": null,
+      "injury": null,
+      "suspension": null,
+      "joined": 1621548000,
+      "contractUntil": 1657607379,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "635673",
+      "name": "Andrew Thomas",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/635673-1647635858.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "26",
+      "age": 23,
+      "dateOfBirth": 904600800,
+      "heroImage": null,
+      "isGoalkeeper": true,
+      "positions": {
+        "first": {
+          "id": "1",
+          "name": "Torwart",
+          "shortName": "TW",
+          "group": "Torwart"
+        },
+        "second": null,
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        },
+        {
+          "id": 141,
+          "name": "Russland",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/141.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 50000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,75",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1592172000,
+      "contractUntil": false,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "688746",
+      "name": "Ethan Dobbelaere",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/688746-1618850165.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "45",
+      "age": 19,
+      "dateOfBirth": 1037228400,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/ethan-dobbelaere-tacoma-defiance-1599909803-47177.jpg?lm=1599909825",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "8",
+          "name": "Rechtes Mittelfeld",
+          "shortName": "RM",
+          "group": "Mittelfeld"
+        },
+        "second": {
+          "id": "12",
+          "name": "Rechtsau\u00dfen",
+          "shortName": "RA",
+          "group": "Sturm"
+        },
+        "third": {
+          "id": "9",
+          "name": "Linkes Mittelfeld",
+          "shortName": "LM",
+          "group": "Mittelfeld"
+        }
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 200000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,91",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1621548000,
+      "contractUntil": 1672441200,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "705864",
+      "name": "Abdoulaye Cissoko",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/705864-1647635739.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "92",
+      "age": 22,
+      "dateOfBirth": 946249200,
+      "heroImage": null,
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "3",
+          "name": "Innenverteidiger",
+          "shortName": "IV",
+          "group": "Abwehr"
+        },
+        "second": null,
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 50,
+          "name": "Frankreich",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/50.png?lm=1520611569"
+        },
+        {
+          "id": 149,
+          "name": "Senegal",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/149.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 600000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,80",
+      "foot": "rechts",
+      "injury": null,
+      "suspension": null,
+      "joined": 1620770400,
+      "contractUntil": 1735599600,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "793957",
+      "name": "Reed Baker-Whiting",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/793957-1647636569.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "21",
+      "age": 17,
+      "dateOfBirth": 1112220000,
+      "heroImage": null,
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "7",
+          "name": "Zentrales Mittelfeld",
+          "shortName": "ZM",
+          "group": "Mittelfeld"
+        },
+        "second": null,
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 200000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    },
+    {
+      "height": "1,75",
+      "foot": "rechts",
+      "injury": {
+        "id": "301",
+        "description": "R\u00fcckenverletzung",
+        "until": null,
+        "category": "Unbekannt",
+        "rehabilitation": "",
+        "clubIdStart": null,
+        "clubIdEnd": null
+      },
+      "suspension": null,
+      "joined": 1639436400,
+      "contractUntil": 1767135600,
+      "captain": false,
+      "lastClub": null,
+      "isLoan": null,
+      "wasLoan": null,
+      "id": "889435",
+      "name": "Obed Vargas",
+      "image": "https:\/\/img.a.transfermarkt.technology\/portrait\/medium\/889435-1647636431.jpg?lm=1",
+      "imageLarge": null,
+      "imageSource": "Major League Soccer",
+      "shirtNumber": "73",
+      "age": 16,
+      "dateOfBirth": 1123192800,
+      "heroImage": "https:\/\/tmssl.akamaized.net\/images\/foto\/normal\/obed-vargas-1645162252-80450.jpg?lm=1645162263",
+      "isGoalkeeper": false,
+      "positions": {
+        "first": {
+          "id": "7",
+          "name": "Zentrales Mittelfeld",
+          "shortName": "ZM",
+          "group": "Mittelfeld"
+        },
+        "second": {
+          "id": "6",
+          "name": "Defensives Mittelfeld",
+          "shortName": "DM",
+          "group": "Mittelfeld"
+        },
+        "third": null
+      },
+      "nationalities": [
+        {
+          "id": 184,
+          "name": "Vereinigte Staaten",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/184.png?lm=1520611569"
+        },
+        {
+          "id": 110,
+          "name": "Mexiko",
+          "image": "https:\/\/tmssl.akamaized.net\/images\/flagge\/small\/110.png?lm=1520611569"
+        }
+      ],
+      "marketValue": {
+        "value": 500000,
+        "currency": "\u20ac",
+        "progression": null
+      }
+    }
+  ]
+}
