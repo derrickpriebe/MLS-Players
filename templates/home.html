@@ -1,23 +1,20 @@
 <html>
 <head>
-    <title>MLS Player Analysis</title>
+    <title>MLS Players Analysis</title>
     <link href="../static/css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-<h1>MLS Player Analysis</h1>
-<h4>Real time data via <a href="http://transfermarkt.com/">Transfermarkt</a></h4>
+<h1>MLS Players Analysis</h1>
 <hr>
 <div class="selections">
-  <h3>Search for players:</h3>
-    <form>
+    <form action="action_page.php">
   
-      <label for="name">Name:</label>
+      <label for="name">Name</label>
       <input type="text" id="name">
   
-      <label for="team">Team:</label>
+      <label for="team">Team</label>
       <select id="team" name="team">
-        <option value=""></option>
         <option value="atlanta united fc">Atlanta United FC</option>
         <option value='austin fc'>Austin FC</option>
         <option value='charlotte fc'>Charlotte FC</option>
@@ -48,11 +45,16 @@
         <option value='vancouver whitecaps fc'>Vancouver Whitecaps FC</option>
       </select>
   
-      <input type="button" value="Submit" name="Submit" onclick="location.href='/results.html'">
-      <input type="button" value="Clear" name ="Submit" onclick="location.href='/'">
-      <input type="button" value="Other" name ="Other" onclick="location.href='/home_copy'">
+      <input type="button" value="Submit" name="Submit">
+      <input type="button" value="Clear" name ="Submit">
     </form>
   </div>
 <hr>
+  <div class="tableContainerDiv">
+    {% for table in tables %}    
+                {{titles[loop.index]}}
+                {{ table|safe }}
+    {% endfor %}
+  </div>  
 </body>
 </html>
