@@ -95,34 +95,5 @@
 	<p>&nbsp;</p>
 	</div>	<!-- browse -->
 
-	<div id="insert" class="insert">
-		<!-- form to INSERT new data-->
-		<form id="insertArtist" action="/Artists" method="POST">
-			<fieldset>
-			<legend><strong>Add Artist</strong></legend>
-                <!-- placeholder shows ghost text, required forces an input, pattern forces input adherence -->
-				<label for="artist">Artist:</label>
-                <input type="text" class="form-control" name="artist" id="artist" placeholder="" required>
-				
-				<label for="recordlabel"> Record Label: </label>
-
-				<select name="recordLabelID" id="recordLabelID">
-					<option value="">None</option>
-					{% for recordlabel in RecordLabels %}
-					<option value="{{recordlabel.recordLabelID}}"> {{recordlabel.name}} </option>
-					{% endfor %}	
-				</select>
-
-      		</fieldset>
-			
-
-			
-            <!-- Create 'Add' and 'Cancel' buttons -->
-			<input type="submit" value="Add Artist" name="Add_Artist"
-			class="btn btn-primary" style="margin:.5rem;">
-			<input class="btn" type="button" value="Cancel" onClick="browseArtist()">
-        </form>
-	</div><!--insert-->
-
 </body>
 </html>

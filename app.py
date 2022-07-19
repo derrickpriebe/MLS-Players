@@ -5,27 +5,20 @@ import pandas as pd
 app = Flask(__name__)
  
 # Data setup
-salary_data = pd.read_csv("salaries.csv") 
+salary_table = pd.read_csv("salaries.csv")
+salary_table.fillna('', inplace=True)
+headings = list(salary_table.columns)
+data = list(salary_table.values)
 
 # Homepage URL call
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return render_template("home.html", headings=headings, data=data)
 
-@app.route('/home_copy', methods=("POST", "GET"))
-def table():
-
-    return render_template('home_copy.html',  tables=[salary_data.to_html(classes='data')], titles=salary_data.columns.values)
-
-# Homepage URL call - J2 file
-@app.route("/home")
-def home1():
-    return render_template("home.j2")
-
-# Results URL call
-@app.route("/results.html")
-def results():
-    return render_template("/results.html")
+@app.route('/GetPlayerInfo/<int:id>')
+def GetPlayerInfo(id):
+    print('It works! The ID is {id}')
+    return redirect('/')
 
 # Listener
 if __name__ == "__main__":

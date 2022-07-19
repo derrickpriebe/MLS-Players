@@ -51,22 +51,10 @@
   </div>
 <hr>
   <div class="tableContainerDiv">
-    <table class="table">
-      <tr class="header">
-        {% for header in headings %}
-        <th class="cell">{{header}}</th>
-        {% endfor %}
-        <th>Info</th>
-      </tr>
-      {% for row in data %}
-      <tr class="row">
-        {% for cell in row %}
-        <td class="cell">{{cell}}</td>
-        {% endfor %}
-        <td><a href="GetPlayerInfo/{{row['ID']}}">Info</a></td>
-      </tr>
-      {% endfor %}
-    </table>
+    {% for table in tables %}    
+                {{titles[loop.index]}}
+                {{ table|safe }}
+    {% endfor %}
   </div>  
 </body>
 </html>
