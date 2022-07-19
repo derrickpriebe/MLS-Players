@@ -2,7 +2,7 @@
 
 .tableContainerDiv {
   overflow: auto;
-  max-height: 80em;
+  max-height: 40em;
 }
 th {
   position: sticky;

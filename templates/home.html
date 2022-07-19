@@ -62,8 +62,8 @@
       <tr class="row">
         {% for cell in row %}
         <td class="cell">{{cell}}</td>
-        {% endfor %}
-        <td><a href="GetPlayerInfo/{{row['ID']}}">Info</a></td>
+        {% endfor %}  
+        <td><a href="GetPlayerInfo/{{row}}">Info</a></td>
       </tr>
       {% endfor %}
     </table>

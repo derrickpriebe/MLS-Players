@@ -8,17 +8,18 @@ app = Flask(__name__)
 salary_table = pd.read_csv("salaries.csv")
 salary_table.fillna('', inplace=True)
 headings = list(salary_table.columns)
+print(headings)
 data = list(salary_table.values)
+print(data)
 
 # Homepage URL call
 @app.route("/")
 def home():
     return render_template("home.html", headings=headings, data=data)
 
-@app.route('/GetPlayerInfo/<int:id>')
-def GetPlayerInfo(id):
-    print('It works! The ID is {id}')
-    return redirect('/')
+@app.route('/GetPlayerInfo/<row>')
+def GetPlayerInfo(row):
+    return row + "something"
 
 # Listener
 if __name__ == "__main__":
