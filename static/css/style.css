@@ -3,12 +3,23 @@
 .tableContainerDiv {
   overflow: auto;
   max-height: 40em;
+  overflow-y: scroll;
 }
 th {
   position: sticky;
   top: 0;
   background: white;
 }
+
+form {
+  display: inline;
+}
+
+body {
+  max-width: 750px;
+}
+
+
 
 /*
 table.scrolldown {

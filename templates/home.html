@@ -2,52 +2,58 @@
 <head>
     <title>MLS Players Analysis</title>
     <link href="../static/css/style.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 <h1>MLS Players Analysis</h1>
 <hr>
 <div class="selections">
-    <form action="/search/" method="POST">
+    <form action="/" method="POST">
   
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name">
+      <label for="name">First:</label>
+      <input type="text" id="name" name="name" value="{{name}}">
+
+      <label for="name2">Last:</label>
+      <input type="text" id="name2" name="name2">
   
       <label for="team">Team</label>
-      <select id="team" name="team">
-        <option value=""></option>
-        <option value="atlanta united fc">Atlanta United FC</option>
-        <option value='austin fc'>Austin FC</option>
-        <option value='charlotte fc'>Charlotte FC</option>
-        <option value='chicago fire fc'>Chicago Fire FC</option>
-        <option value='fc cincinnati'>FC Cincinnati</option>
-        <option value='colorado rapids'>Colorado Rapids</option>
-        <option value='columbus crew'>Columbus Crew</option>
-        <option value='fc dallas'>FC Dallas</option>
-        <option value='d.c. united'>D.C. United</option>
-        <option value='houston dynamo fc'>Houston Dynamo FC</option>
-        <option value='la galaxy'>LA Galaxy</option>
-        <option value='los angeles fc'>Los Angeles FC</option>
-        <option value='minnesota united fc'>Minnesota United FC</option>
-        <option value='inter miami cf'>Inter Miami CF</option>
-        <option value='cf montreal'>CF Montreal</option>
-        <option value='nashville sc'>Nashville SC</option>
-        <option value='new england revolution'>New England Revolution</option>
-        <option value='new york city fc'>New York City FC</option>
-        <option value='new york red bulls'>New York Red Bulls</option>
-        <option value='orlando city sc'>Orlando City SC</option>
-        <option value='philadelphia union'>Philadelphia Union</option>
-        <option value='portland timbers'>Portland Timbers</option>
-        <option value='real salt lake'>Real Salt Lake</option>
-        <option value='san jose earthquakes'>San Jose Earthquakes</option>
-        <option value='seattle sounders fc'>Seattle Sounders FC</option>
-        <option value='sporting kansas city'>Sporting Kansas City</option>
-        <option value='toronto fc'>Toronto FC</option>
-        <option value='vancouver whitecaps fc'>Vancouver Whitecaps FC</option>
+      <select type="text" id="team" title="team" name="team">
+        <option {% if team == '' %} selected {% endif %} value=""></option>
+        <option {% if team == 'atlanta united' %} selected {% endif %}  value="atlanta united">Atlanta United FC</option>
+        <option {% if team == 'austin fc' %} selected {% endif %} value='austin fc'>Austin FC</option>
+        <option {% if team == 'charlotte fc' %} selected {% endif %} value='charlotte fc'>Charlotte FC</option>
+        <option {% if team == 'chicago fire fc' %} selected {% endif %} value='chicago fire fc'>Chicago Fire FC</option>
+        <option {% if team == 'fc cincinnati' %} selected {% endif %} value='fc cincinnati'>FC Cincinnati</option>
+        <option {% if team == 'colorado rapids' %} selected {% endif %} value='colorado rapids'>Colorado Rapids</option>
+        <option {% if team == 'columbus crew' %} selected {% endif %} value='columbus crew'>Columbus Crew</option>
+        <option {% if team == 'fc dallas' %} selected {% endif %} value='fc dallas'>FC Dallas</option>
+        <option {% if team == 'd.c. united' %} selected {% endif %} value='d.c. united'>D.C. United</option>
+        <option {% if team == 'houston dynamo fc' %} selected {% endif %} value='houston dynamo fc'>Houston Dynamo FC</option>
+        <option {% if team == 'la galaxy' %} selected {% endif %} value='la galaxy'>LA Galaxy</option>
+        <option {% if team == 'los angeles fc' %} selected {% endif %} value='los angeles fc'>Los Angeles FC</option>
+        <option {% if team == 'minnesota united fc' %} selected {% endif %} value='minnesota united fc'>Minnesota United FC</option>
+        <option {% if team == 'inter miami cf' %} selected {% endif %} value='inter miami cf'>Inter Miami CF</option>
+        <option {% if team == 'cf montreal' %} selected {% endif %} value='cf montreal'>CF Montreal</option>
+        <option {% if team == 'nashville sc' %} selected {% endif %} value='nashville sc'>Nashville SC</option>
+        <option {% if team == 'new england revolution' %} selected {% endif %} value='new england revolution'>New England Revolution</option>
+        <option {% if team == 'new york city fc' %} selected {% endif %} value='new york city fc'>New York City FC</option>
+        <option {% if team == 'new york red bulls' %} selected {% endif %} value='new york red bulls'>New York Red Bulls</option>
+        <option {% if team == 'orlando city sc' %} selected {% endif %} value='orlando city sc'>Orlando City SC</option>
+        <option {% if team == 'philadelphia union' %} selected {% endif %} value='philadelphia union'>Philadelphia Union</option>
+        <option {% if team == 'portland timbers' %} selected {% endif %} value='portland timbers'>Portland Timbers</option>
+        <option {% if team == 'real salt lake' %} selected {% endif %} value='real salt lake'>Real Salt Lake</option>
+        <option {% if team == 'san jose earthquakes' %} selected {% endif %} value='san jose earthquakes'>San Jose Earthquakes</option>
+        <option {% if team == 'seattle sounders fc' %} selected {% endif %} value='seattle sounders fc'>Seattle Sounders FC</option>
+        <option {% if team == 'sporting kansas city' %} selected {% endif %} value='sporting kansas city'>Sporting Kansas City</option>
+        <option {% if team == 'toronto fc' %} selected {% endif %} value='toronto fc'>Toronto FC</option>
+        <option {% if team == 'vancouver whitecaps fc' %} selected {% endif %} value='vancouver whitecaps fc'>Vancouver Whitecaps FC</option>
       </select>
   
       <input type="submit" value="Submit">
-      <input type="reset" value="Clear">
+    </form>
+    <form action="/" method="GET">
+      <input type="submit" value="Clear">
     </form>
   </div>
 <hr>
@@ -69,5 +75,15 @@
       {% endfor %}
     </table>
   </div>  
+
+  <script>
+  const resetForm = (event) => {
+  document.getElementById("name").value = '';
+  event.preventDefault()
+  }
+
+  const el = document.getElementById("reset");
+  el.addEventListener("click", resetForm);
+  </script>
 </body>
 </html>
