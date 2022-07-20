@@ -8,13 +8,14 @@
 <h1>MLS Players Analysis</h1>
 <hr>
 <div class="selections">
-    <form action="action_page.php">
+    <form action="/search/" method="POST">
   
       <label for="name">Name</label>
-      <input type="text" id="name">
+      <input type="text" id="name" name="name">
   
       <label for="team">Team</label>
       <select id="team" name="team">
+        <option value=""></option>
         <option value="atlanta united fc">Atlanta United FC</option>
         <option value='austin fc'>Austin FC</option>
         <option value='charlotte fc'>Charlotte FC</option>
@@ -45,8 +46,8 @@
         <option value='vancouver whitecaps fc'>Vancouver Whitecaps FC</option>
       </select>
   
-      <input type="button" value="Submit" name="Submit">
-      <input type="button" value="Clear" name ="Submit">
+      <input type="submit" value="Submit">
+      <input type="reset" value="Clear">
     </form>
   </div>
 <hr>
@@ -63,7 +64,7 @@
         {% for cell in row %}
         <td class="cell">{{cell}}</td>
         {% endfor %}  
-        <td><a href="GetPlayerInfo/{{row}}">Info</a></td>
+        <td><a href="GetPlayerInfo/{{loop.index}}">Info</a></td>
       </tr>
       {% endfor %}
     </table>

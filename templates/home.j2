@@ -4,71 +4,36 @@
 	<link href="/static/css/style.css" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="https://use.typekit.net/nvz7lyg.css">
 	<script src="https://kit.fontawesome.com/1f94aa04ee.js" crossorigin="anonymous"></script>
-	<script language="JavaScript">
-	function showform(dowhat) {
-		/*
-		 * four DIVS: browse, insert, update, delete
-		 * this function sets one visible the others not
-		 */
-		if(dowhat == 'insert') {
-			document.getElementById('browse').style.display = 'block';
-			document.getElementById('insert').style.display = 'block';
-			document.getElementById('edit').style.display = 'none';
-			document.getElementById('delete').style.display = 'none';
-		} else if(dowhat == 'update') {
-			document.getElementById('browse').style.display = 'block';
-			document.getElementById('insert').style.display = 'none';
-			document.getElementById('edit').style.display = 'block';
-			document.getElementById('delete').style.display = 'none';
-		} else if(dowhat == 'delete') {
-			document.getElementById('browse').style.display = 'block';
-			document.getElementById('insert').style.display = 'none';
-			document.getElementById('edit').style.display = 'none';
-			document.getElementById('delete').style.display = 'block';
-		} else if(dowhat == 'all') {
-			document.getElementById('browse').style.display = 'block';
-			document.getElementById('insert').style.display = 'block';
-			document.getElementById('edit').style.display = 'block';
-			document.getElementById('delete').style.display = 'block';
-		} else { //by default display browse
-			document.getElementById('browse').style.display = 'block';
-			document.getElementById('insert').style.display = 'none';
-			document.getElementById('edit').style.display = 'none';
-			document.getElementById('delete').style.display = 'none';
-		}
-	}
-	function newArtist() {
-		showform('insert');
-	}
-	function updateArtist(pid) {
-		showform('update');
-	}
-	function deleteArtist(pid) {
-		showform('delete');
-	}
-	function browseArtist() {
-		showform('browse');
-	}
-	function showAll() {
-		showform('all');
-	}
-	</script>
 </head>
 
-<body onload="browseArtist()" class="artists">
-	{% include "Menu.html" %}
+<body class="artists">
+				<p>		
+			<form id="searchPlayer" action="/"method="get">
+				<fieldset>
+					<!-- placeholder shows ghost text, required forces an input,	pattern forces input adherence -->
+					<a><b>Search</b></a>&nbsp;&nbsp;&nbsp;
+					<label for="first"> First Name: </label>
+					<input type="text" name="first" id="first">
+					<label for="last"> Last Name: </label>
+					<input type="last" name="last" id="last">
+					<label for="team"> Team: </label> 
+					<input type="text" name="team" id="team">
+					<!-- Create 'Search' and 'Cancel' buttons -->
+					<input type="submit" value="Search" name="SearchPlayer"
+					class="btn btn-primary" style="margin:.5rem;">
+					<input class="btn" type="button" value="clear" 	name="clear"onClick="window.location.href='/'">
+				</fieldset>
+			</form>
+		</p>
 	<div id="browse">
 		<table border="1" cellpadding="5">
-            <!-- Access data tuple passed from app.py -->
             {% if data %}
 			    <thead>
 				    <tr>
 					    <!-- Iterate through each key in the first entry to get the column name -->
                         {% for key in data[0].keys() %}
-
                         <!-- Create a <th> tag with the key inside of it, this will be our header row -->
 					    <th scope="col" data-field="{{ key }}" data-filter-control="input">{{ key }}</th>
-
                         <!-- End of this for loop -->
                         {% endfor %}
 						<th></th>
@@ -79,12 +44,10 @@
 					    <tr>
 						    <!-- Then iterate through every key in the current item dictionary -->
                             {% for key in item.keys() %}
-
 						    <!-- Create a <td> element with the value of that key in it -->
 						    <td> {{item[key]}} </td>
                             {% endfor %}
-
-                            <!-- Create our edit/delete buttons -->
+                            <!-- Create link -->
 						    <td><a href="DeleteArtist/{{item['ID']}}"><i class="fa-solid fa-trash-can"></i></a></td>
 
 					    </tr>
