@@ -10,7 +10,7 @@ By Derrick Priebe
 -Requirements: Python 3.x. Python packages include ZMQ, TIME, and JSON.
 
 #### Client Setup Example
-<code>
+```
 # Import packages ZeroMQ, TIME, and JSON
 import zmq
 import time
@@ -21,7 +21,7 @@ context = zmq.Context()
 print("Connecting to server…")
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")
-</code>
+```
 
 #### How to Request Data
 -An Integer tied to a variable object_id converted to string must be provided in the request
