@@ -95,3 +95,5 @@ Notes
 UML Diagram
 ![](CS361 - Assignment 7 - priebed - UML-1.jpg)
 ![](https://photos.app.goo.gl/E5HWJxqRHWzKCfMZ9)
+
+<img src="CS361 - Assignment 7 - priebed - UML-1.jpg" style="float: left; margin-right: 10px;" />
