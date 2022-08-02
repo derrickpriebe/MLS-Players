@@ -3,7 +3,7 @@ By Derrick Priebe
 
 
 #### Summary
-- This microservice is designed to provide image file location information to the program upon request.
+- This microservice is designed to provide image file location information to the program upon request per partner instructions for OSU CS361 Software Engineering class.
 
 #### Implementation
 - Microservice messaging is handled by ZeroMQ
