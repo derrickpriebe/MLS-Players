@@ -93,5 +93,5 @@ Notes
 -Download process is out of scope of the microservice although all the information needed for download is provided to the client. An example download.py file is included to illustrate one instance of a download process.
 
 UML Diagram
-!(https://github.com/derrickpriebe/MLS-Players/blob/main/Image%20Microservice/CS361%20-%20Assignment%207%20-%20priebed%20-%20UML-1.jpg)
-!(https://photos.app.goo.gl/E5HWJxqRHWzKCfMZ9)
+![](https://github.com/derrickpriebe/MLS-Players/blob/main/Image%20Microservice/CS361%20-%20Assignment%207%20-%20priebed%20-%20UML-1.jpg)
+![](https://photos.app.goo.gl/E5HWJxqRHWzKCfMZ9)
