@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body onload="pageCheck" id="page">
 <h1>MLS Players Analysis</h1>
 <hr>
 <div class="selections">
@@ -85,6 +85,7 @@
 
   <script>
   const resetForm = (event) => {
+  console.log("resetForm")
   document.getElementById("search").value = '';
   document.getElementById("name").value = '';
   document.getElementById("name2").value = '';
@@ -97,6 +98,7 @@
   el.addEventListener("click", resetForm);
 
   function advancedSearch() {
+  console.log("advancedSearch")
   var adv_section = document.getElementById("advanced");
   if (adv_section.style.display === "none") {
     adv_section.style.display = "block";
@@ -104,6 +106,20 @@
     adv_section.style.display = "none";
   }
   }
+
+  function pageCheck() {
+  console.log("pageCheck")
+  var name = document.getElementById("name");
+  var adv_section = document.getElementById("advanced");
+  if (name && name.value) {
+    adv_section.style.display = "block";
+  } else {
+    adv_section.style.display = "none";
+  }
+  }
+
+  const load = document.getElementById("tableContainerDiv");
+  load.addEventListener("load", pageCheck);
 
   </script>
 </body>
