@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, json, redirect, request
+from flask import Flask, jsonify, render_template, request
 import pandas as pd 
 
 # Flask constructor
@@ -10,8 +10,6 @@ table.fillna('', inplace=True)
 table_dict = {col: list(table[col]) for col in table.columns}
 headings = list(table.columns)
 data = list(table.values)
-#[0:10]
-#print(data[0])
 
 # Homepage URL call
 @app.route("/")
@@ -24,12 +22,16 @@ def get_player_info(rowindex):
 
 @app.route("/", methods=["POST"])
 def search():
+    search = request.form.get("search")
     name = request.form.get("name")
     name2 = request.form.get("name2")
     team = request.form.get("team")
     filterdata = []
     for e in data:
-        if ((name == "" or name.lower() in e[0].lower()) and
+        if ((search == "" or search.lower() in e[0].lower() 
+            or search.lower() in e[1].lower() 
+            or search.lower() in e[2].lower()) and
+            (name == "" or name.lower() in e[0].lower()) and
             (name2 == "" or name2.lower() in e[1].lower()) and
             (team == "" or team.lower() in e[2].lower())):
             filterdata.append(e)
