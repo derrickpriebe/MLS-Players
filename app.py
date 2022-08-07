@@ -8,7 +8,6 @@ import pandas as pd
 import webbrowser
 import zmq
 
-# Flask constructor
 app = Flask(__name__)
 
 # Data setup
@@ -22,7 +21,7 @@ context = zmq.Context()
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")
 
-# Homepage URL call
+# Route for homepage
 @app.route("/")
 def home():
     return render_template("home.html", headings=headings, data=data)
