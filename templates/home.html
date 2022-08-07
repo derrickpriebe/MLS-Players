@@ -13,7 +13,7 @@
       <label for="name">Search:</label>
       <input type="text" id="search" name="search" value="{{search}}">
       <br>
-      <a href="javascript:void(0" onclick="advancedSearch()">Advanced Search</a>
+      <a href="javascript:void(0)" onclick="advancedSearch()">Advanced Search</a>
       <br>
       <div id="advanced" style="display: none;">
         <label for="name">First:</label>
@@ -56,7 +56,6 @@
         </select>  
       </div>
 
-  
       <input type="submit" id=submit value="Submit">
     </form>
     <form action="/" method="GET">
@@ -64,7 +63,7 @@
     </form>
   </div>
 <hr>
-  <div class="tableContainerDiv">
+  <div class="tableContainerDiv" id="tableContainerDiv">
     <table class="table">
       <tr class="header">
         {% for header in headings %}
@@ -84,31 +83,40 @@
   </div>  
 
   <script>
-  const resetForm = (event) => {
-  console.log("resetForm")
-  document.getElementById("search").value = '';
-  document.getElementById("name").value = '';
-  document.getElementById("name2").value = '';
-  document.getElementById("team").value = '';
-  document.getElementById("advanced").style.display = "block";
-  event.preventDefault()
-  }
 
-  const el = document.getElementById("reset");
-  el.addEventListener("click", resetForm);
+  // const resetForm = (event) => {
+  // console.log("resetForm");
+  // document.getElementById("search").value = '';
+  // document.getElementById("name").value = '';
+  // document.getElementById("name2").value = '';
+  // document.getElementById("team").value = '';
+  // document.getElementById("advanced").style.display = "block";
+  // event.preventDefault()
+  // }
+  // const el = document.getElementById("reset");
+  // el?.addEventListener("click", resetForm);
+
+  // const submitForm = (event) => {
+  // console.log("submitForm");
+  // document.getElementById("advanced").style.display = "block";
+  // event.preventDefault()
+  // }
+  // const submit = document.getElementById("submit");
+  // submit.addEventListener("click", submitForm);
 
   function advancedSearch() {
-  console.log("advancedSearch")
+  console.log("advancedSearch");
   var adv_section = document.getElementById("advanced");
+  if (adv_section) {
   if (adv_section.style.display === "none") {
     adv_section.style.display = "block";
   } else {
     adv_section.style.display = "none";
   }
-  }
+  }}
 
   function pageCheck() {
-  console.log("pageCheck")
+  console.log("pageCheck");
   var name = document.getElementById("name");
   var adv_section = document.getElementById("advanced");
   if (name && name.value) {
@@ -117,9 +125,7 @@
     adv_section.style.display = "none";
   }
   }
-
-  const load = document.getElementById("tableContainerDiv");
-  load.addEventListener("load", pageCheck);
+  window.addEventListener("load", pageCheck);
 
   </script>
 </body>
