@@ -35,7 +35,7 @@ def get_player_info(rowindex):
 # Route to post search results
 @app.route("/", methods=["POST"])
 def search():
-    # Collect search variables
+    # Collect search input variables
     search = request.form.get("search")
     name = request.form.get("name")
     name2 = request.form.get("name2")
@@ -43,12 +43,15 @@ def search():
     filterdata = []
     # Conduct search on data
     for element in data:
-        if ((search == "" or search.lower() in element[0].lower() 
-            or search.lower() in element[1].lower() 
-            or search.lower() in element[2].lower()) and
-            (name == "" or name.lower() in element[0].lower()) and
-            (name2 == "" or name2.lower() in element[1].lower()) and
-            (team == "" or team.lower() in element[2].lower())):
+        name_element = element[0].lower()
+        name2_element = element[1].lower()
+        team_element = element[2].lower()
+        if ((search == "" or search.lower() in name_element 
+            or search.lower() in name2_element 
+            or search.lower() in team_element) and
+            (name == "" or name.lower() in name_element) and
+            (name2 == "" or name2.lower() in name2_element) and
+            (team == "" or team.lower() in team_element)):
             filterdata.append(element)
     if filterdata == []:
         # If no search results, show message
