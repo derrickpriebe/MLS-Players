@@ -1,3 +1,8 @@
+# MLS Player Data Flask Site by Derrick Priebe
+# Leveraging Player URL Microservice by Hyunjae Kim
+# Oregon State University, CS361 Software Engineering I
+# Date: 8/7/2022
+
 from flask import Flask, render_template, redirect, request, url_for
 import pandas as pd 
 import webbrowser
@@ -35,7 +40,6 @@ def get_player_info(rowindex):
 # Route to post search results
 @app.route("/", methods=["POST"])
 def search():
-    # Collect search input variables
     search = request.form.get("search")
     name = request.form.get("name")
     name2 = request.form.get("name2")
@@ -43,15 +47,12 @@ def search():
     filterdata = []
     # Conduct search on data
     for element in data:
-        name_element = element[0].lower()
-        name2_element = element[1].lower()
-        team_element = element[2].lower()
-        if ((search == "" or search.lower() in name_element 
-            or search.lower() in name2_element 
-            or search.lower() in team_element) and
-            (name == "" or name.lower() in name_element) and
-            (name2 == "" or name2.lower() in name2_element) and
-            (team == "" or team.lower() in team_element)):
+        full_search = search == "" or search.lower() in element[0].lower() or \
+            search.lower() in element[1].lower() or search.lower() in element[2].lower()
+        name_search = name == "" or name.lower() in element[0].lower()
+        name2_search = name2 == "" or name2.lower() in element[1].lower()
+        team_search = team == "" or team.lower() in element[2].lower()
+        if (full_search and name_search and name2_search and team_search):
             filterdata.append(element)
     if filterdata == []:
         # If no search results, show message
