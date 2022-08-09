@@ -16,13 +16,13 @@
       <a href="javascript:void(0)" onclick="advancedSearch()">Advanced Search</a>
       <br>
       <div id="advanced" style="display: none;">
-        <label for="name">First:</label>
-        <input type="text" id="name" name="name" value="{{name}}">
+        <label for="first_name">First:</label>
+        <input type="text" id="first_name" name="first_name" value="{{first_name}}">
   
         <label for="last_name">Last:</label>
         <input type="text" id="last_name" name="last_name" value="{{last_name}}">
     
-        <label for="team">Team</label>
+        <label for="team">Club:</label>
         <select type="text" id="team" title="team" name="team"  value="{{team}}">
           <option {% if team == '' %} selected {% endif %} value=""></option>
           <option {% if team == 'atlanta united' %} selected {% endif %}  value="atlanta united">Atlanta United FC</option>

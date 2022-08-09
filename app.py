@@ -39,34 +39,34 @@ def get_player_info(rowindex):
 # Function to get inputs from form 
 def getInputs(form):
     search = form.get("search")
-    name = form.get("name")
+    first_name = form.get("first_name")
     last_name = form.get("last_name")
     team = form.get("team")
-    return search, name, last_name, team
+    return search, first_name, last_name, team
 
 # Function to get search criteria for an element
-def getSearch(search, name, last_name, team, element, filterdata):
+def getSearch(search, first_name, last_name, team, element, filterdata):
     full_search = search == "" or search.lower() in element[0].lower() or \
         search.lower() in element[1].lower() or search.lower() in element[2].lower()
-    name_search = name == "" or name.lower() in element[0].lower()
+    first_name_search = first_name == "" or first_name.lower() in element[0].lower()
     last_name_search = last_name == "" or last_name.lower() in element[1].lower()
     team_search = team == "" or team.lower() in element[2].lower()
-    if (full_search and name_search and last_name_search and team_search):
+    if (full_search and first_name_search and last_name_search and team_search):
             filterdata.append(element)
     return filterdata
 
 # Route to post search results
 @app.route("/", methods=["POST"])
 def search():
-    search, name, last_name, team = getInputs(request.form)
+    search, first_name, last_name, team = getInputs(request.form)
     filterdata = []
     for element in data:
-        filterdata = getSearch(search, name, last_name, team, element, filterdata)
+        filterdata = getSearch(search, first_name, last_name, team, element, filterdata)
     if filterdata == []:
         no_data = ["No  "]
-        return render_template("home.html", headings=no_data, name=name, last_name=last_name, team=team)
+        return render_template("home.html", headings=no_data, first_name=first_name, last_name=last_name, team=team)
     else:
-        return render_template("home.html", headings=headings, data=filterdata,  name=name, last_name=last_name, team=team)
+        return render_template("home.html", headings=headings, data=filterdata,  first_name=first_name, last_name=last_name, team=team)
 
 # Listener
 if __name__ == "__main__":
