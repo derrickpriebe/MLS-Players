@@ -32,41 +32,34 @@ def get_player_info(rowindex):
     # Send and receive message request
     socket.send_string(str(rowindex))
     message = socket.recv_string()
-    # Access url from message
+    # Access url from message and open brower tab to resolve url
     webbrowser.open(message)
     return redirect(url_for("home"))
-
-# Function to get inputs from form 
-def getInputs(form):
-    search = form.get("search")
-    name = form.get("name")
-    last_name = form.get("last_name")
-    team = form.get("team")
-    return search, name, last_name, team
-
-# Function to get search criteria for an element
-def getSearch(search, name, last_name, team, element, filterdata):
-    full_search = search == "" or search.lower() in element[0].lower() or \
-        search.lower() in element[1].lower() or search.lower() in element[2].lower()
-    name_search = name == "" or name.lower() in element[0].lower()
-    last_name_search = last_name == "" or last_name.lower() in element[1].lower()
-    team_search = team == "" or team.lower() in element[2].lower()
-    if (full_search and name_search and last_name_search and team_search):
-            filterdata.append(element)
-    return filterdata
 
 # Route to post search results
 @app.route("/", methods=["POST"])
 def search():
-    search, name, last_name, team = getInputs(request.form)
+    search = request.form.get("search")
+    name = request.form.get("name")
+    name2 = request.form.get("name2")
+    team = request.form.get("team")
     filterdata = []
+    # Conduct search on data
     for element in data:
-        filterdata = getSearch(search, name, last_name, team, element, filterdata)
+        full_search = search == "" or search.lower() in element[0].lower() or \
+            search.lower() in element[1].lower() or search.lower() in element[2].lower()
+        name_search = name == "" or name.lower() in element[0].lower()
+        name2_search = name2 == "" or name2.lower() in element[1].lower()
+        team_search = team == "" or team.lower() in element[2].lower()
+        if (full_search and name_search and name2_search and team_search):
+            filterdata.append(element)
     if filterdata == []:
+        # If no search results, show message
         no_data = ["No  "]
-        return render_template("home.html", headings=no_data, name=name, last_name=last_name, team=team)
+        return render_template("home.html", headings=no_data, name=name, name2=name2, team=team)
     else:
-        return render_template("home.html", headings=headings, data=filterdata,  name=name, last_name=last_name, team=team)
+        # If search results, show results
+        return render_template("home.html", headings=headings, data=filterdata,  name=name, name2=name2, team=team)
 
 # Listener
 if __name__ == "__main__":
