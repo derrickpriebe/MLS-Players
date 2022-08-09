@@ -58,15 +58,14 @@ def getSearch(search_inputs, element, filterdata):
 @app.route("/", methods=["POST"])
 def search():
     search_inputs = getInputs(request.form)
-    print(search_inputs)
     filterdata = []
     for element in data:
         filterdata = getSearch(search_inputs, element, filterdata)
     if filterdata == []:
         no_data = ["No  "]
-        return render_template("home.html", headings=no_data, first_name=search_inputs[1], last_name=search_inputs[2], team=search_inputs[3])
+        return render_template("home.html", headings=no_data, search= search_inputs[0],first_name=search_inputs[1], last_name=search_inputs[2], team=search_inputs[3])
     else:
-        return render_template("home.html", headings=headings, data=filterdata,  first_name=search_inputs[1], last_name=search_inputs[2], team=search_inputs[3])
+        return render_template("home.html", headings=headings, data=filterdata, search=search_inputs[0], first_name=search_inputs[1], last_name=search_inputs[2], team=search_inputs[3])
 
 # Listener
 if __name__ == "__main__":

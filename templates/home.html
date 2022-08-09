@@ -1,29 +1,30 @@
 <html>
-<head>
-    <title>MLS Players Analysis</title>
+<head >
+    <title>MLS Players Analysis</title><br>
     <link href="../static/css/style.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body onload="pageCheck" id="page">
-<h1>MLS Players Analysis</h1>
+<body onload="pageCheck" id="page" style="margin-top: -30;">
+<h1 >MLS Players Analysis</h1>
+<h4 style="margin-top: -20; margin-bottom: 0;">Table: <a href="http://s3.amazonaws.com/mlspa/2022_salary_list_4-15.pdf?mtime=20220517163551">2022 MLSPA Player & Salary Data</a>&nbsp;&nbsp;&nbsp;&nbsp;Info: <a href="https://www.transfermarkt.com">Transfermarkt</a></h4>
 <hr>
 <div class="selections">
     <form action="/" method="POST">
       <label for="name">Search:</label>
       <input type="text" id="search" name="search" value="{{search}}">
-      <br>
+      <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
       <a href="javascript:void(0)" onclick="advancedSearch()">Advanced Search</a>
       <br>
       <div id="advanced" style="display: none;">
         <label for="first_name">First:</label>
-        <input type="text" id="first_name" name="first_name" value="{{first_name}}">
+        <input type="text" id="adv_search" name="first_name" value="{{first_name}}">
   
         <label for="last_name">Last:</label>
-        <input type="text" id="last_name" name="last_name" value="{{last_name}}">
+        <input type="text" id="adv_search" name="last_name" value="{{last_name}}">
     
         <label for="team">Club:</label>
-        <select type="text" id="team" title="team" name="team"  value="{{team}}">
+        <select type="text" id="adv_search" title="team" name="team"  value="{{team}}">
           <option {% if team == '' %} selected {% endif %} value=""></option>
           <option {% if team == 'atlanta united' %} selected {% endif %}  value="atlanta united">Atlanta United FC</option>
           <option {% if team == 'austin fc' %} selected {% endif %} value='austin fc'>Austin FC</option>
@@ -97,7 +98,7 @@
 
   function pageCheck() {
   console.log("pageCheck");
-  var name = document.getElementById("name");
+  var name = document.getElementById("adv_search");
   var adv_section = document.getElementById("advanced");
   if (name && name.value) {
     adv_section.style.display = "block";
